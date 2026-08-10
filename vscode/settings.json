@@ -1,0 +1,181 @@
+
+{
+    // Não abre página inicial ao iniciar o VS Code
+    "workbench.startupEditor": "none",
+
+    // Tema escuro do GitHub
+    "workbench.colorTheme": "GitHub Dark Default",
+
+    // Move a barra de atividades (Explorer, Search, Git etc.) para o topo
+    "workbench.activityBar.location": "top",
+
+    // Remove o botão do Copilot/Command Center da barra superior
+    "chat.commandCenter.enabled": false,
+
+    // Usa barra de menu compacta
+    "window.menuBarVisibility": "compact",
+
+    // Desativa o minimapa lateral do código
+    "editor.minimap.enabled": true,
+
+    // Oculta as abas dos arquivos abertos
+    "workbench.editor.showTabs": "none",
+
+    // Fonte usada no editor
+    "editor.fontFamily": "Google Sans Code, monospace",
+
+    // Tamanho da fonte do editor
+    "editor.fontSize": 13,
+
+    // =========================
+    // Editor
+    // =========================
+
+    // Destaca apenas a área da numeração da linha atual
+    "editor.renderLineHighlight": "gutter",
+
+    // Mostra espaços em branco apenas quando selecionados
+    "editor.renderWhitespace": "selection",
+
+    // Exibe guias de indentação
+    "editor.guides.indentation": true,
+
+    // Destaca a indentação ativa
+    "editor.guides.highlightActiveIndentation": true,
+
+    // Colore pares de chaves, colchetes e parênteses
+    "editor.bracketPairColorization.enabled": true,
+
+    // Mostra linhas-guia conectando pares de chaves
+    "editor.guides.bracketPairs": true,
+
+    // Mantém cabeçalhos de blocos fixos ao rolar o código
+    "editor.stickyScroll.enabled": true,
+
+    // Ativa rolagem suave
+    "editor.smoothScrolling": false,
+
+    // =========================
+    // Cursor
+    // =========================
+
+    // Animação suave de piscar do cursor
+    "editor.cursorBlinking": "smooth",
+
+    // Largura do cursor em pixels
+    "editor.cursorWidth": 2,
+
+    // =========================
+    // Salvamento
+    // =========================
+
+    // Remove espaços extras no final das linhas ao salvar
+    "files.trimTrailingWhitespace": true,
+
+    // Adiciona uma linha vazia ao final do arquivo
+    "files.insertFinalNewline": true,
+
+    // =========================
+    // Python
+    // =========================
+
+    "[python]": {
+        // Indentação com 4 espaços
+        "editor.tabSize": 4,
+
+        // Usa espaços em vez de TAB
+        "editor.insertSpaces": true,
+
+        // Não quebra linhas automaticamente
+        "editor.wordWrap": "off"
+    },
+
+    // =========================
+    // IntelliSense
+    // =========================
+
+    "editor.quickSuggestions": {
+        // Sugestões durante código normal
+        "other": true,
+
+        // Desativa sugestões dentro de comentários
+        "comments": false,
+
+        // Ativa sugestões dentro de strings
+        "strings": true
+    },
+
+    // Sempre seleciona a primeira sugestão da lista
+    "editor.suggestSelection": "first",
+
+    // Habilita sugestões inline (texto cinza)
+    "editor.inlineSuggest.enabled": true,
+
+    // =========================
+    // Explorador
+    // =========================
+
+    // Não pede confirmação ao excluir arquivos
+    "explorer.confirmDelete": false,
+
+    // Não pede confirmação ao arrastar e mover arquivos
+    "explorer.confirmDragAndDrop": false,
+
+    // =========================
+    // Abas
+    // =========================
+
+    // Arquivos abertos permanecem fixos
+    "workbench.editor.enablePreview": false,
+
+    // =========================
+    // Terminal
+    // =========================
+
+    // Fonte utilizada no terminal integrado
+    "terminal.integrated.fontFamily": "Google Sans Code",
+
+    // Tamanho da fonte do terminal
+    "terminal.integrated.fontSize": 12,
+
+    // Cursor do terminal piscando
+    "terminal.integrated.cursorBlinking": true,
+
+    // Quantidade de linhas mantidas no histórico do terminal
+    "terminal.integrated.scrollback": 10000,
+
+    // =========================
+    // Git
+    // =========================
+
+    // Busca atualizações remotas automaticamente
+    // "git.autofetch": true,
+
+    // Não pede confirmação ao sincronizar
+    // "git.confirmSync": false,
+
+    // =========================
+    // Performance e Interface
+    // =========================
+
+    // Destaca ocorrências apenas no arquivo atual
+    "editor.occurrencesHighlight": "singleFile",
+
+    // Desativa destaque automático de seleções iguais
+    "editor.selectionHighlight": false,
+
+    // Mostra navegação por breadcrumbs acima do editor
+    "breadcrumbs.enabled": true,
+
+    // Impede o Python de sugerir criação automática de ambientes virtuais
+    "python.createEnvironment.trigger": "off",
+
+    // Remove Command Center da barra superior
+    "window.commandCenter": false,
+
+    // Remove controles de navegação da interface
+    "workbench.navigationControl.enabled": false,
+
+    // Oculta controles de layout
+    "workbench.layoutControl.enabled": false
+}
