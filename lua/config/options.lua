@@ -56,7 +56,7 @@ vim.api.nvim_create_autocmd("User", {
 		math.randomseed(os.time())
 		local chosen = themes[math.random(#themes)]
 		vim.cmd.colorscheme(chosen)
-		vim.notify("colorscheme: " .. chosen, vim.log.levels.INFO, { title = "Theme" })
+		-- vim.notify("colorscheme: " .. chosen, vim.log.levels.INFO, { title = "Theme" })
 	end,
 })
 
