@@ -1,3 +1,4 @@
+require("config.remote_clipboard").setup()
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
@@ -29,17 +30,31 @@ vim.api.nvim_create_autocmd("User", {
 	once = true,
 	callback = function()
 		local themes = {
+			"ayu",
 			"ayu-dark",
 			"ayu-mirage",
+			"catppuccin",
 			"catppuccin-frappe",
 			"catppuccin-macchiato",
 			"catppuccin-mocha",
+			"catppuccin-nvim",
+			"darkblue",
+			"default",
 			"dracula",
+			"dracula-soft",
 			"everforest",
 			"github_dark",
 			"github_dark_colorblind",
+			"github_dark_default",
+			"github_dark_dimmed",
+			"github_dark_high_contrast",
+			"github_dark_tritanopia",
+			"habamax",
+			"industry",
+			"kanagawa",
 			"kanagawa-dragon",
 			"kanagawa-wave",
+			"koehler",
 			"monokai-pro",
 			"monokai-pro-classic",
 			"monokai-pro-machine",
@@ -47,11 +62,22 @@ vim.api.nvim_create_autocmd("User", {
 			"monokai-pro-ristretto",
 			"monokai-pro-spectrum",
 			"moonfly",
+			"murphy",
 			"onedark",
+			"pablo",
+			"quiet",
+			"retrobox",
+			"slate",
+			"sorbet",
+			"tokyonight",
 			"tokyonight-moon",
 			"tokyonight-night",
 			"tokyonight-storm",
+			"torte",
+			"unokai",
 			"vscode",
+			"wildcharm",
+			"zaibatsu",
 		}
 		math.randomseed(os.time())
 		local chosen = themes[math.random(#themes)]
@@ -94,6 +120,7 @@ opt.showmode = false -- não mostra "-- INSERT --" (a lualine já faz isso)
 opt.cmdheight = 1 -- altura da linha de comando
 opt.pumheight = 10 -- máximo de itens visíveis no menu de autocomplete
 vim.opt.laststatus = 3
+
 -- =============================================================================
 -- COMPORTAMENTO
 -- =============================================================================
