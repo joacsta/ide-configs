@@ -38,10 +38,11 @@ vim.api.nvim_create_autocmd("User", {
 			"catppuccin-macchiato",
 			"catppuccin-mocha",
 			"catppuccin-nvim",
-			"darkblue",
+			-- "darkblue",
 			"default",
 			"dracula",
 			"dracula-soft",
+			-- "evening",
 			"everforest",
 			"github_dark",
 			"github_dark_colorblind",
@@ -50,11 +51,11 @@ vim.api.nvim_create_autocmd("User", {
 			"github_dark_high_contrast",
 			"github_dark_tritanopia",
 			"habamax",
-			"industry",
+			-- "industry",
 			"kanagawa",
 			"kanagawa-dragon",
 			"kanagawa-wave",
-			"koehler",
+			-- "koehler",
 			"monokai-pro",
 			"monokai-pro-classic",
 			"monokai-pro-machine",
@@ -120,7 +121,6 @@ opt.showmode = false -- não mostra "-- INSERT --" (a lualine já faz isso)
 opt.cmdheight = 1 -- altura da linha de comando
 opt.pumheight = 10 -- máximo de itens visíveis no menu de autocomplete
 vim.opt.laststatus = 3
-
 -- =============================================================================
 -- COMPORTAMENTO
 -- =============================================================================
